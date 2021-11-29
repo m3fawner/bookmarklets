@@ -1,6 +1,12 @@
 # bookmarklets
 Bookmarklets written over the years
 
+# Adding bookmarklets
+1. Create a new bookmark
+1. Provide a title
+1. To let the browser know it is a script, in the address input, add `javascript:`
+1. Paste the contents of the script you want as the bookmarklet
+
 # Purposes
 
 ## delete reddit comments
@@ -13,7 +19,7 @@ of 700,000+ people.
 ## treasury direct password
 This was another "I was irked" bookmarklet. Treasury direct uses some pretty asinine 
 security theater with their "virtual keyboard" which makes you click each letter of 
-your password...but the password is just a `<input type="password" disabled>` element.
+your password...but the password is just a `<input type="password" readOnly>` element.
 Of course, when you put blockers in the way of developers they find a way around them.
 Or as the Gov. of Missouri likes to call it, [hacking](https://www.washingtonpost.com/politics/2021/10/14/newspaper-informed-missouri-about-website-flaw-governor-accused-it-hacking/)!
 
